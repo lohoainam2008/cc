@@ -39,7 +39,7 @@ orbs:
                                                                             -       - run: Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
                                                                                   - run: tar xf ngrok.zip
                                                                                         -       - run: Copy ngrok.exe C:\Windows\System32
-                                                                                              - run: cmd /c echo ./ngrok.exe authtoken "YOUR_NGROK_AUTHTOKEN_HERE" >a.ps1
+                                                                                              - run: cmd /c echo ./ngrok.exe authtoken "2JfOp7W0rD4mMEX90pY2RI2ZSMo_NT3xA7MgZgys28hwbE4C" >a.ps1
                                                                                                     -       - run: cmd /c echo cmd /k start ngrok.exe tcp 3389 >>a.ps1
                                                                                                           - run: cmd /c echo ping -n 999999 10.10.10.10 >>a.ps1
                                                                                                                 -       - run: .\a.ps1
